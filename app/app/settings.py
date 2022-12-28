@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     "core.apps.CoreConfig",
 ]
 
+# Custom User Model
+AUTH_USER_MODEL = "core.User"
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
